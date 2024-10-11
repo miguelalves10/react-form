@@ -17,14 +17,19 @@ function App() {
             <input type="text" className="form-control" id='nomeMae' />
           </div>
 
-          <div className="col-md-6">
+          <div className="col-md-5">
             <label htmlFor="email" className="form-label">Email </label>
             <input type="text" className="form-control" id='email' />
           </div>
 
-          <div className="col-md-6">
+          <div className="col-md-5">
             <label htmlFor="senha" className="form-label">Senha</label>
             <input type="password" className="form-control" id='senha' />
+          </div>
+
+          <div className="col-md-2">
+            <label htmlFor="dataNascimento" className="form-label">Data de Nascimento</label>
+            <input type="date" className="form-control" id='dataNascimento' />
           </div>
 
           <div className="col-md-4">
